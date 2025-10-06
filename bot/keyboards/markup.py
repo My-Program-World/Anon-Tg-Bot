@@ -2,8 +2,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 home = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text='🔍 Search')],
-        [KeyboardButton(text='👤 Profile'), KeyboardButton(text='ℹ️ Info')]
+        [KeyboardButton(text='🔍 Search')]
     ],
     resize_keyboard=True
 )

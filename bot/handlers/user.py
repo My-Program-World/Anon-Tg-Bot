@@ -22,27 +22,6 @@ async def start_handler(msg: Message) -> None:
     )
 
 
-@router.message(F.text == '👤 Profile')
-async def profile_handler(msg: Message) -> None:
-    assert msg.from_user is not None
-    
-    user_id = msg.from_user.id
-    interlocutors_count = 10
-    
-    text: str = texts['en']['profile']
-    formated_text = text.format(
-        user_id=user_id, 
-        interlocutors_count=interlocutors_count
-    )
-    
-    await msg.answer(text=formated_text)
-
-
-@router.message(F.text == 'ℹ️ Info')
-async def info_handler(msg: Message) -> None:
-    ...
-
-
 @router.message(F.text == '🔍 Search')
 async def search_handler(msg: Message, bot: Bot, state: FSMContext) -> None:
     assert msg.from_user
@@ -171,11 +150,6 @@ async def exit_user_handler(msg: Message, bot: Bot, state: FSMContext) -> None:
         text=texts['en']['you_exit'],
         reply_markup=markup.home
     )
-    
-
-@router.message(F.text == '!clear')
-async def clear(msg: Message, state: FSMContext) -> None:
-    await state.clear()
 #endregion
 
 #region States
@@ -192,7 +166,7 @@ async def chat_message_handler(msg: Message, bot: Bot) -> None:
             user_id, 
             msg.reply_to_message.message_id
         )
-        
+    
     match msg.content_type:
         case 'text':
             text = msg.text
