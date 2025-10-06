@@ -22,7 +22,7 @@ A Telegram bot built with **Python** and **aiogram**, supporting message replies
 
 ```bash
 git clone https://github.com/My-Program-World/Anon-Tg-Bot
-cd telegram-bot
+cd bot
 ```
 
 2. Create a virtual environment (recommended):
