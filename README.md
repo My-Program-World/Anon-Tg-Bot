@@ -2,7 +2,7 @@
 
 # Telegram Bot with Replies, Buttons, and Reactions
 
-A Telegram bot built with **Python** and **aiogram**, supporting message replies, inline/reply keyboards, user queues, and reactions. Designed to be easy to extend and customize.
+A Telegram bot built with **Python** and **aiogram**, supporting message replies, inline/reply keyboards, user queues. Designed to be easy to extend and customize.
 
 ---
 
@@ -21,7 +21,7 @@ A Telegram bot built with **Python** and **aiogram**, supporting message replies
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/telegram-bot.git
+git clone https://github.com/My-Program-World/Anon-Tg-Bot
 cd telegram-bot
 ```
 
@@ -71,6 +71,5 @@ Create a `.env` file in the project root and add your Telegram bot token as a va
 ```env
 TOKEN=YOUR_TELEGRAM_BOT_TOKEN_HERE
 ```
-
 
 ### 6. Run `main.py`
