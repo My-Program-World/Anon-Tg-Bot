@@ -1,0 +1,44 @@
+welcome: |
+  <b>Hello User!
+
+  This a anon chat, happy, big and funny!
+
+  No rules, no restrictions!</b>
+
+profile: |
+  🆔<code> {user_id} </code>
+  👥<code> {interlocutors_count} </code>
+
+  💡<b> New features comming soon... </b>
+
+searching_partner: |
+  👀 <b>I'm looking for a partner. Please be patient.</b>
+
+already_in_chatting: |
+  ⚠️ <b>You are already in the chat or search!</b>
+
+  ❓ <b>Do you want to go out?</b>
+
+partner_searched: |
+  😮 <b>A partner has been found.</b>
+
+  ⚠️ <b><i>Enjoy your conversations, and please remember that we are not responsible for you or your partner.</i></b>
+
+stoped_search: |
+  🤚 <b>Search stoped!</b>
+
+command_off: |
+  ❌ <b>Commands don't work during search and chat.</b>
+
+user_skipped: |
+  🚷 <b>User skipped for you.</b>
+
+  💡 <b>Weve brought you back to your search.</b>
+
+you_were_skipped: |
+  🚷 <b>User skipped you.</b>
+
+  💡 <b>Weve brought you back to your search.</b>
+
+you_exit: |
+  🚪 <b> You exit </b>
